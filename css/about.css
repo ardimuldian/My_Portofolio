@@ -1,46 +1,120 @@
-/* =========================
-   ABOUT PAGE
-========================= */
+/* =================================
+   ABOUT SECTION
+================================= */
 
 
-/* Button Container */
+.about-section {
 
-.button-wrapper {
-    margin-top: 30px;
+    width: 75%;
+
+    margin: auto;
+
     text-align: center;
+
 }
 
 
-/* View Project Card */
 
-.project-card {
+/* Title */
 
-    display: inline-flex;
+.about-section h2 {
+
+    margin-bottom: 30px;
+
+}
+
+
+
+/* Content */
+
+.about-content {
+
+    max-width: 850px;
+
+    margin: auto;
+
+}
+
+
+
+/* Paragraph */
+
+.about-content p {
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    text-align: justify;
+
+    margin-bottom: 15px;
+
+    font-weight: 400;
+
+}
+
+
+
+/* Bold */
+
+.about-content b {
+
+    font-weight: 500;
+
+}
+
+
+
+/* =================================
+   VIEW PROJECT BUTTON
+================================= */
+
+
+.about-button {
+
+    margin-top: 45px;
+
+    display: flex;
 
     justify-content: center;
 
+}
+
+
+
+/* VIEW PROJECT BUTTON */
+
+.view-project {
+
+    display: flex;
+
     align-items: center;
 
-
-    width: 200px;
-
-    height: 55px;
+    justify-content: center;
 
 
-    border-radius: 15px;
+    width: 280px;
+
+    height: 70px;
 
 
-    background: rgba(255,255,255,0.1);
-
-    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
 
 
-    color: inherit;
+    background: rgba(255,255,255,0.08);
+
+    border: 1px solid rgba(255,255,255,0.25);
 
 
-    font-size: 20px;
+    color: white;
 
-    font-weight: 400;
+
+    font-size: 28px;
+
+    font-weight: 500;
+
+
+    text-decoration: none;
 
 
     transition: 0.3s ease;
@@ -48,38 +122,132 @@
 }
 
 
-/* Saat hover */
 
-.project-card:hover {
+/* Hover */
+
+.view-project:hover {
+
 
     background: #2196f3;
 
+
     color: white;
 
+
+    transform: translateY(-4px);
+
+
+    box-shadow:
+
+    0 8px 20px rgba(33,150,243,0.35);
+
+
 }
 
 
-/* Saat klik */
 
-.project-card:active {
+/* =================================
+   TABLET
+================================= */
 
-    background: #1565c0;
+
+@media(max-width:900px){
+
+
+    .about-content p {
+
+        font-size: 18px;
+
+    }
+
+
+    .view-project {
+
+        width: 200px;
+
+        height: 50px;
+
+        font-size: 18px;
+
+    }
+
 
 }
 
 
-/* Mobile */
+
+/* =================================
+   MOBILE
+================================= */
+
 
 @media(max-width:600px){
 
-    .project-card {
 
-        width: 170px;
+    .about-section {
 
-        height: 48px;
-
-        font-size: 17px;
+        width: 90%;
 
     }
+
+
+
+    .about-content p {
+
+
+        font-size: 15px;
+
+
+        line-height: 1.5;
+
+
+        text-align: left;
+
+
+    }
+
+
+
+ /* VIEW PROJECT BUTTON */
+
+.view-project {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+    width: 260px;
+
+    height: 65px;
+
+
+    border-radius: 18px;
+
+
+    background: rgba(255,255,255,0.08);
+
+
+    border: 1px solid rgba(255,255,255,0.25);
+
+
+    color: white;
+
+
+    font-size: 24px;
+
+
+    font-weight: 500;
+
+
+    text-decoration: none;
+
+
+    transition: 0.3s ease;
+
+}
+
 
 }
