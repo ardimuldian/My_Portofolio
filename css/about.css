@@ -1,0 +1,85 @@
+/* =========================
+   ABOUT PAGE
+========================= */
+
+
+/* Button Container */
+
+.button-wrapper {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* View Project Card */
+
+.project-card {
+
+    display: inline-flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+    width: 200px;
+
+    height: 55px;
+
+
+    border-radius: 15px;
+
+
+    background: rgba(255,255,255,0.1);
+
+    border: 1px solid rgba(255,255,255,0.3);
+
+
+    color: inherit;
+
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+
+    transition: 0.3s ease;
+
+}
+
+
+/* Saat hover */
+
+.project-card:hover {
+
+    background: #2196f3;
+
+    color: white;
+
+}
+
+
+/* Saat klik */
+
+.project-card:active {
+
+    background: #1565c0;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:600px){
+
+    .project-card {
+
+        width: 170px;
+
+        height: 48px;
+
+        font-size: 17px;
+
+    }
+
+}

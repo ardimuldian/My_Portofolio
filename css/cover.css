@@ -206,6 +206,14 @@
 
 }
 
+.badge:hover {
+
+    background: #2196f3;
+
+    color: white;
+
+}
+
 .badge i {
 
     font-size:16px;
