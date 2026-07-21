@@ -1,0 +1,81 @@
+/* ==========================================
+   TEST EXECUTION
+========================================== */
+
+.reveal .test-execution,
+.reveal .execution-validation{
+
+    width:90%;
+    margin:auto;
+
+}
+
+.reveal .test-execution h2,
+.reveal .execution-validation h2{
+
+    font-size:1em;
+    margin-bottom:24px;
+    text-align:center;
+
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.reveal .test-execution .plan-grid,
+.reveal .execution-validation .plan-grid{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:28px;
+
+    flex-wrap:wrap;
+
+}
+
+/* ==========================================
+   NEXT BUTTON
+========================================== */
+
+.reveal .section-action{
+
+    margin-top:35px;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.reveal .next-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:10px 24px;
+
+    border-radius:30px;
+
+    background:#2196f3;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    font-size:.42em;
+
+    transition:.3s;
+
+}
+
+.reveal .next-btn:hover{
+
+    background:#1976d2;
+
+}

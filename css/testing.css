@@ -1,0 +1,200 @@
+/* ==========================================
+   TEST PLAN & TEST STRATEGY
+========================================== */
+
+#test-plan {
+
+    width: 88%;
+    margin: 0 auto;
+
+}
+
+#test-plan h2 {
+
+    margin-bottom: 25px;
+
+}
+
+/* ===== Card Layout ===== */
+
+.plan-grid {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+
+}
+
+.plan-card {
+
+    padding: 18px 22px;
+
+    background: rgba(255,255,255,0.06);
+
+    border: 1px solid rgba(255,255,255,0.15);
+
+    border-radius: 14px;
+
+    transition: .3s ease;
+
+}
+
+.plan-card:hover {
+
+    border-color: #2196f3;
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 6px 16px rgba(33,150,243,.25);
+
+}
+
+.plan-card i {
+
+    font-size: 24px;
+
+    color: #2196f3;
+
+    margin-bottom: 10px;
+
+}
+
+.plan-card h3 {
+
+    font-size: 22px;
+
+    margin-bottom: 12px;
+
+}
+
+.plan-card ul {
+
+    padding-left: 18px;
+    margin: 0;
+
+}
+
+.plan-card li {
+
+    font-size: 15px;
+
+    line-height: 1.6;
+
+    margin-bottom: 6px;
+
+}
+
+/* ===== Strategy ===== */
+
+.strategy-title {
+
+    margin-top: 28px;
+    margin-bottom: 18px;
+
+    font-size: 26px;
+
+}
+
+.strategy-list {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+}
+
+.strategy-badge {
+
+    padding: 8px 18px;
+
+    font-size: 15px;
+
+    border-radius: 20px;
+
+    background: rgba(255,255,255,.08);
+
+    border: 1px solid rgba(255,255,255,.15);
+
+    transition: .3s ease;
+
+}
+
+.strategy-badge:hover {
+
+    background: #2196f3;
+
+    border-color: #2196f3;
+
+}
+
+/* ===== Tablet ===== */
+
+@media (max-width: 900px) {
+
+    .plan-card h3 {
+
+        font-size: 20px;
+
+    }
+
+    .plan-card li {
+
+        font-size: 14px;
+
+    }
+
+}
+
+/* ===== Mobile ===== */
+
+@media (max-width: 768px) {
+
+    .plan-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .plan-card {
+
+        padding: 16px;
+
+    }
+
+    .plan-card i {
+
+        font-size: 22px;
+
+    }
+
+    .plan-card h3 {
+
+        font-size: 18px;
+
+    }
+
+    .plan-card li {
+
+        font-size: 13px;
+
+    }
+
+    .strategy-title {
+
+        font-size: 22px;
+
+    }
+
+    .strategy-badge {
+
+        font-size: 13px;
+
+        padding: 8px 14px;
+
+    }
+
+}

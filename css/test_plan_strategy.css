@@ -1,0 +1,57 @@
+.plan-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:14px;
+
+    justify-items:center;
+
+}
+
+.plan-card{
+
+    width:100%;
+
+    max-width:230px;
+
+    min-height:170px;
+
+    padding:14px 16px;
+
+    border-radius:12px;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    transition:.3s ease;
+
+}
+
+.plan-card:hover{
+
+    background:rgba(33,150,243,.08);
+
+    border-color:#2196f3;
+
+}
+
+.plan-card i{
+
+    font-size:18px;
+
+}
+
+.plan-card h3{
+
+    font-size:.42em;
+
+}
+
+.plan-card li{
+
+    font-size:.30em;
+
+}
